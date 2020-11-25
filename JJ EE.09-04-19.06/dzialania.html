@@ -18,6 +18,7 @@
 <a href="dzialania.html"><h4>Działania</h4></a>
 </div>
 <div id="b4">
+<a href="mnozenie.html"><h4>Tabliczka mnożenia</h4></a>
 <a <h4>Tabliczka mnożenia</h4></a>
 </div>
 
@@ -30,6 +31,7 @@
 <button type="button">*</button>
 <button type="button">/</button>
 <button type="button">A^B</button>
+<p id="wynik"></p>
 </div>
 <div id="p">
  <ul>
@@ -43,5 +45,37 @@
 <footer>
 <p>Autor: PESEL</p>
 </footer>
+<script>
+    function dodawanie(){
+        var a = +document.getElementById("A").value;
+        var b = +document.getElementById("B").value;
+        var wynik = a + b;
+        document.getElementById("wynik").innerHTML = "Wynik: " + wynik;
+    }
+    function odejmowanie(){
+        var a = +document.getElementById("A").value;
+        var b = +document.getElementById("B").value;
+        var wynik = a - b;
+        document.getElementById("wynik").innerHTML = "Wynik: " + wynik;
+    }
+    function mnozenie(){
+        var a = +document.getElementById("A").value;
+        var b = +document.getElementById("B").value;
+        var wynik = a * b;
+        document.getElementById("wynik").innerHTML = "Wynik: " + wynik;
+    }
+    function dzielenie(){
+        var a = +document.getElementById("A").value;
+        var b = +document.getElementById("B").value;
+        var wynik = a / b;
+        document.getElementById("wynik").innerHTML = "Wynik: " + wynik;
+    }
+    function potegowanie(){
+        var a = +document.getElementById("A").value;
+        var b = +document.getElementById("B").value;
+        var wynik = a ** b;
+        document.getElementById("wynik").innerHTML = "Wynik: " + wynik;
+    }
+</script>
 </body>
 </html>
