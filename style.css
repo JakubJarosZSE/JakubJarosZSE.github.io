@@ -64,4 +64,38 @@ font-weight:820;
 font-size:60px;
 text-shadow: 6px 6px black;
 }
+
+#Projekty {
+	background: url("omnietło.jpg") no-repeat center fixed;
+	width: 100%;
+	height: auto;
 }
+
+.projektimg {
+	width: 570px;
+	height: 320px;
+	border: 2px solid black;
+	border-radius: 2px;
+	margin: auto;
+	float: left;
+	background-size: cover;
+	transition: 1s;
+}
+
+#projekty {
+	text-align: center;
+}
+
+#projekty h2 {
+	margin: 0;
+	padding: 3vh;
+}
+
+.img {
+	margin: auto;
+	display: inline-block;
+}
+
+
+
+
