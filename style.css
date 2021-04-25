@@ -66,6 +66,7 @@ text-shadow: 6px 6px black;
 }
 
 #projekty {
+	font-family: 'Montserrat';
 	text-align: center;
 }
 
@@ -143,6 +144,9 @@ text-shadow: 6px 6px black;
 	}
 }
 
-
+p {
+	margin: 0;
+	text-align: center;
+}
 
 
