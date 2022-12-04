@@ -1,152 +1,95 @@
-tml, body{
+﻿.srodek{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	width:98vw;
+}
+#logo{
+	width:7vw;
+    margin-top: 3vh;
+}
+h1
+{
+    text-align: center;
+    color:aliceblue;
+	font-weight:400;
+	font-size:45px;
+	margin-top:2vh;
+}
+#main
+{
+    background-color: #969090;
+    margin: 1vw 1vw 0 1vw;
+	padding: 2vh 2vw 2vh 2vw;
+	text-align:center;	
+	border-radius:5px;
+}
+p{
+    font-size: 20px;
 	margin:0;
-	padding:0;
 }
-html{
-	height:100%;
-}
-
-body{
-	background-color:#fcfcfc;
-	box-sizing: border-box;
-	font-family: Verdana;
-	color:#000000;
-	min-height:100%;
-	position:relative;
-}
-header{
-	text-align:center;
-	background: url('tło.jpg') fixed;
-	padding: 35px 0 20px;
-}
-nav{
- font-size:30px;
- text-align:center;
- padding:15px 0;
- background-color:#b53f3f;
-}
-a.gor{
-	display:inline-block;
-	width:30%;
-	color:white;
+hr{
+	margin: 2vh 0 2vh 0;
+	border: 3px solid black;
+	border-radius:2px;
+	width:50vw;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+    background-color:black;
+	
 }
 
+.oferta {
+    border: solid;
+    padding: 24px;
+    width: 10vw;
+    height: 12vh;   
 
-.dol{
-	color:#1a1919;
-	text-align:center;
-	height:100px;
-	padding-bottom:200px;
-	padding-top:125px;
-}
-footer{
-	text-align:center;
-	height:110px;
-	position:absolute;
-	bottom:0;
-	width:100%;
-}
-a{
-	color:#0d0c0c;
-}
-a:hover{
-	text-decoration:underline;
-	color:#262626;
-	text-shadow: 0.5px 0.5px silver;
-}
-#404 h1{
-font-size:250%;
-}
-#ben {
-background:none;
-color:#ffffff;
-font-weight:820;
-font-size:60px;
-text-shadow: 6px 6px black;
 }
 
-#projekty {
-	font-family: 'Montserrat';
-	text-align: center;
+#S {
+    border: solid;
+    padding: 5px;
+    width: 20vw;
+    height: 24vh;   
+
 }
 
-#projekty h2 {
-	margin: 0;
-	padding: 3vh;
+.jpg {
+    float: left;
+    width: 30vw;
+    background-color: #ffffff;
+    height: 30vh;
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-.img {
-	margin: auto;
-	display: inline-block;
+#tabela {
+    float: left;
+    width: 30vw;
+    background-color: #69665a;
+    text-align:center;
+    height:30vh;
 }
-
-.projektimg {
-	width: 570px;
-	height: 320px;
-	border: 2px solid black;
-	border-radius: 2px;
-	margin: auto;
-	float: left;
-	background-size: cover;
-	transition: 1s;
+.container{
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-#tekst {
-	width: 100vw;
-	float: left;
-	text-align: center;
+ol {
+    list-style-position: inside;
 }
-
-.projektimg h1 {
-	opacity: 0;
-	text-align: center;
-	padding: 10%;
-	transition: 1s;
+td{
+    border: 1px solid black;
 }
-
-
-.projektimg:hover h1 {
-	opacity: 1;
-	background: rgba(0, 0, 0, 0.6);
+table{
+    margin:auto;
 }
-
-#Projekty2 {
-	padding: 10%;
-	height: 100vh;
+footer {
+    background-color: #2cb337;
+    margin: 1vw 1vw 0 1vw;
+    padding: 2vh 2vw 2vh 2vw;
+    border-radius: 5px;
 }
-
-#projekty h2 {
-	margin: 0;
-	padding: 3vh;
-}
-
-.img {
-	margin: auto;
-	display: inline-block;
-}
-
-@media (max-width: 620px) {
-	#Kontakt h3 {
-		font-size: 70%;
-	}
-
-	.projektimg {
-		width: 90vw;
-		height: 30vh;
-	}
-
-	table {
-		font-size: 110%;
-	}
-
-	#menu {
-		font-size: 80%;
-	}
-}
-
-p {
-	margin: 0;
-	text-align: center;
-}
-
-
+    
